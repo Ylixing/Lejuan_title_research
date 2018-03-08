@@ -1,2 +1,11 @@
-# Lejuan_title_research
+
+file_path.py:保存各类表的路径，文件保存路径，原数据路径
+
+get_feature.py:从原始数据中得到文本标题，文本小标题，文本目标值（成功为1，不成功为0），筹款成功率
+
+titletxt_classify.py:文章小标题文本分类，训练数据为每篇文章的小标题文本，目标为是否成功（成功为1，不成功为0），训练得到模型train_model.m
+
+title_analyze.py:得到小标题的个数与目标值的相关系数（较相关），得到更容易获得成功的标题个数和标题结构
+
+test.py:用title_analyze.py得到的标题数和标题结构编写小标题，用train_model.m预测目标值（是否成功）# Lejuan_title_research
 该项目爬取乐捐五大类别筹款项目，共计16244条文本信息，根据筹是否成功对文本小标题进行文本分类，模拟写出文本小标题
